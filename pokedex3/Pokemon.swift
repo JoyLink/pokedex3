@@ -13,5 +13,10 @@ class Pokemon {
     }
     
     
+    init(name: String, pokemonIndex: Int) {
+        self._name = name
+        self._pokemonIndex = pokemonIndex
+    }
+    
     
 }
