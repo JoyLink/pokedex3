@@ -74,11 +74,13 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         return 1
     }
     
-    @IBAction func MusicBtnPressed(_ sender: Any) {
+    @IBAction func MusicBtnPressed(_ sender: UIButton) {
         if musicPlayer.isPlaying {
             musicPlayer.pause()
+            sender.alpha = 0.2
         } else {
             musicPlayer.play()
+            sender.alpha = 1.0
         }
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
