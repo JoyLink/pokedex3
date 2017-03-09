@@ -13,6 +13,7 @@
 		705C73091E71ED2E00A00671 /* pokedex3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 705C73071E71ED2E00A00671 /* pokedex3.xcdatamodeld */; };
 		705C730B1E71ED2E00A00671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705C730A1E71ED2E00A00671 /* Assets.xcassets */; };
 		705C730E1E71ED2E00A00671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 705C730C1E71ED2E00A00671 /* LaunchScreen.storyboard */; };
+		70D2F12C1E71F52300D3F91A /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 70D2F12B1E71F52300D3F91A /* pokemon.csv */; };
 		879FBB2AF7BAF886C6AFC684 /* Pods_pokedex3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A8D92588742FC9B7AB8D56 /* Pods_pokedex3.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		705C730A1E71ED2E00A00671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		705C730D1E71ED2E00A00671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		705C730F1E71ED2E00A00671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70D2F12B1E71F52300D3F91A /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		A7E3DCDFC8B9C03CC69FA880 /* Pods-pokedex3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokedex3.release.xcconfig"; path = "Pods/Target Support Files/Pods-pokedex3/Pods-pokedex3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 				705C73021E71ED2E00A00671 /* ViewController.swift */,
 				705C73041E71ED2E00A00671 /* Main.storyboard */,
 				705C730A1E71ED2E00A00671 /* Assets.xcassets */,
+				70D2F12B1E71F52300D3F91A /* pokemon.csv */,
 				705C730C1E71ED2E00A00671 /* LaunchScreen.storyboard */,
 				705C730F1E71ED2E00A00671 /* Info.plist */,
 				705C73071E71ED2E00A00671 /* pokedex3.xcdatamodeld */,
@@ -157,6 +160,7 @@
 			files = (
 				705C730E1E71ED2E00A00671 /* LaunchScreen.storyboard in Resources */,
 				705C730B1E71ED2E00A00671 /* Assets.xcassets in Resources */,
+				70D2F12C1E71F52300D3F91A /* pokemon.csv in Resources */,
 				705C73061E71ED2E00A00671 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
