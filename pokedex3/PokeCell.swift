@@ -20,7 +20,7 @@ class PokeCell: UICollectionViewCell {
         self.layer.cornerRadius = 7.0
     }
     
-    func configCell(pokemon: Pokemon) {
+    func configCell(_ pokemon: Pokemon) {
         self.pokemon = pokemon
         
         nameLabel.text = self.pokemon.name.capitalized

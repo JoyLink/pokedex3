@@ -1,8 +1,8 @@
 import UIKit
 
 class Pokemon {
-    private var _name: String!
-    private var _pokemonIndex: Int!
+    fileprivate var _name: String!
+    fileprivate var _pokemonIndex: Int!
     
     var name: String {
         return _name
