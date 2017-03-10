@@ -38,7 +38,7 @@ class PokemonDetailVC: UIViewController {
         
         super.viewDidLoad()
 
-        self.pokemon.downloadPokemonDetails {
+        self.pokemon.downloadPokemonDetail {
             self.updateUI()
         }
         
@@ -46,7 +46,10 @@ class PokemonDetailVC: UIViewController {
     }
     
     func updateUI() {
-        
+        baseAttctLabel.text = pokemon.attack
+        defenseLabel.text = pokemon.defense
+        heightLabel.text = pokemon.height
+        weightLabel.text = pokemon.weight
     }
 
     @IBAction func backBtnPressed(_ sender: UIButton) {
