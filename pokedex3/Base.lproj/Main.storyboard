@@ -281,7 +281,7 @@
                                                 <rect key="frame" x="42" y="30.5" width="236.5" height="50.5"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Lfz-NX-3eq">
-                                                        <rect key="frame" x="0.0" y="0.0" width="176.5" height="20.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="192" height="20.5"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="WWz-bD-qjz">
                                                                 <rect key="frame" x="0.0" y="0.0" width="85" height="20.5"/>
@@ -301,16 +301,16 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aAV-O8-W28">
-                                                                <rect key="frame" x="85" y="0.0" width="91.5" height="20.5"/>
+                                                                <rect key="frame" x="85" y="0.0" width="107" height="20.5"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Defense:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hlt-a2-ZVb">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="73.5" height="20.5"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PokeDexID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hlt-a2-ZVb">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="20.5"/>
                                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                         <color key="textColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ui-Yc-fo2">
-                                                                        <rect key="frame" x="83.5" y="0.0" width="8" height="20.5"/>
+                                                                        <rect key="frame" x="99" y="0.0" width="8" height="20.5"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                                         <nil key="highlightedColor"/>
@@ -419,6 +419,19 @@
                             <constraint firstItem="uZI-lb-8Pq" firstAttribute="leading" secondItem="IjZ-1Y-9O3" secondAttribute="leading" id="nVt-UD-0bj"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="baseAttctLabel" destination="pXS-RV-INc" id="g1Q-Hh-vIs"/>
+                        <outlet property="currentImg" destination="zxf-iz-muS" id="Xkd-KB-W0K"/>
+                        <outlet property="currentName" destination="FhM-I1-bfJ" id="Sgi-rA-OKK"/>
+                        <outlet property="defenseLabel" destination="6Ad-QP-chs" id="Xbt-ce-KKK"/>
+                        <outlet property="descriptionLabel" destination="ies-Mp-fNT" id="cYc-XL-F5r"/>
+                        <outlet property="evoImg" destination="JcY-TM-Jeg" id="hA0-pJ-MMK"/>
+                        <outlet property="heightLabel" destination="gdf-t7-I5N" id="7ap-Y9-RKx"/>
+                        <outlet property="mainImg" destination="rt6-uy-bMe" id="uwJ-LZ-Naa"/>
+                        <outlet property="pokeDexLabel" destination="2ui-Yc-fo2" id="SV8-Hv-HD1"/>
+                        <outlet property="typeLabel" destination="yEQ-o3-NGR" id="Naa-qB-exU"/>
+                        <outlet property="weightLabel" destination="Bhd-53-aCd" id="XWN-QG-TXi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oyx-fC-YAI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
