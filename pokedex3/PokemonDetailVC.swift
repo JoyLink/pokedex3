@@ -38,8 +38,15 @@ class PokemonDetailVC: UIViewController {
         
         super.viewDidLoad()
 
+        self.pokemon.downloadPokemonDetails {
+            self.updateUI()
+        }
         
         // Do any additional setup after loading the view.
+    }
+    
+    func updateUI() {
+        
     }
 
     @IBAction func backBtnPressed(_ sender: UIButton) {
@@ -47,3 +54,5 @@ class PokemonDetailVC: UIViewController {
     }
 
 }
+
+

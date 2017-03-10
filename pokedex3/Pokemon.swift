@@ -1,4 +1,5 @@
 import UIKit
+import Alamofire
 
 class Pokemon {
     fileprivate var _name: String!
@@ -10,7 +11,7 @@ class Pokemon {
     private var _weight: String!
     private var _attact: String!
     private var _nextEvolutionTxt: String!
-    
+    private var _pokemonURL: String!
     
     var name: String {
         return _name
@@ -24,7 +25,17 @@ class Pokemon {
     init(name: String, pokemonIndex: Int) {
         self._name = name
         self._pokemonIndex = pokemonIndex
+        self._pokemonURL = "\(URL_BASE)\(URL_POKEMON)\(pokemonIndex)"
     }
     
     
+    func downloadPokemonDetail(completed: DownloadComplete) {
+        
+        
+        Alamofire.request(_pokemonURL).responsetJSON{ (response) in
+            print(response.result.value)
+        
+            }
+
+        }
 }
