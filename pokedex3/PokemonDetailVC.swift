@@ -20,8 +20,7 @@ class PokemonDetailVC: UIViewController {
     }
 
     @IBAction func backBtnPressed(_ sender: UIButton) {
-        
+        _ = self.navigationController?.popViewController(animated: true)
     }
-
 
 }
