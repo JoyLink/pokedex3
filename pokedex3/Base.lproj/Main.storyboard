@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="pokefont.ttf">
+        <array key="pokemon.ttf">
             <string>PokemonSolidNormal</string>
         </array>
     </customFonts>
@@ -428,6 +428,7 @@
                         <outlet property="evoImg" destination="JcY-TM-Jeg" id="hA0-pJ-MMK"/>
                         <outlet property="heightLabel" destination="gdf-t7-I5N" id="7ap-Y9-RKx"/>
                         <outlet property="mainImg" destination="rt6-uy-bMe" id="uwJ-LZ-Naa"/>
+                        <outlet property="nameLabel" destination="ZZH-ZJ-FTB" id="ddP-Ww-ENJ"/>
                         <outlet property="pokeDexLabel" destination="2ui-Yc-fo2" id="SV8-Hv-HD1"/>
                         <outlet property="typeLabel" destination="yEQ-o3-NGR" id="Naa-qB-exU"/>
                         <outlet property="weightLabel" destination="Bhd-53-aCd" id="XWN-QG-TXi"/>
