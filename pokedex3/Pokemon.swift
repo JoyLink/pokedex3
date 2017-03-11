@@ -164,6 +164,8 @@ class Pokemon {
                             if let descDict = response.result.value as? Dictionary<String, AnyObject> {
                                 if let description = descDict["description"] as? String {
                                     self._description = description
+                                    
+                                    completed()  
                                 }
                             }
                         }
@@ -209,10 +211,12 @@ class Pokemon {
                     print(self.nextEvolutionLevel)
                     print(self.nextEvolutionName)
                     print(self.nextEvolutionId)
+                    
                 }
+                
             }
                 
-            completed()
+            
         }
 
 
